@@ -4,16 +4,11 @@
 ---
 ## **3 usecases are implemented**
 - The Q & A 
-<!-- FAQ video -->
+https://user-images.githubusercontent.com/62222721/158679416-63ad6779-aea3-4f76-867e-d3b26c121bcd.mp4
 - Ministry Dashboard
-<!-- dashboard picture -->
 ![dashboard](https://github.com/FatmaGuidara/EVAX/blob/master/Dashboard.png)
 - Drugstores' form
-<!-- drugstore video -->
-
-https://drive.google.com/file/d/1PN1wL2UzOp9Mwp9682egl-LzSa4OwWRO/view?usp=sharing
-
-
+https://user-images.githubusercontent.com/62222721/158679255-7d4010b5-dc55-4d52-b784-5f45188dde3a.mp4
 
 ---
 ## **To run the project** 
