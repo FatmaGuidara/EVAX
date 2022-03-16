@@ -12,6 +12,8 @@
 <!-- drugstore video -->
 
 https://github.com/FatmaGuidara/EVAX/blob/master/DrugStore.mp4
+
+
 ---
 ## **To run the project** 
 1. *Run the back-end*
