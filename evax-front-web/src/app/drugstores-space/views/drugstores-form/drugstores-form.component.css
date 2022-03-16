@@ -1,0 +1,52 @@
+.navbar{
+    background-color: rgb(65, 65, 202);
+    border-radius: 0;
+    color: white;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    color: blanchedalmond;
+    font-family: 'poppins';
+}
+.image{
+    margin: 0 2%;
+} 
+
+.content{
+    margin-top: 0;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/photos/blur-shelves-of-drugs-in-the-pharmacy-picture-id504255236?b=1&k=20&m=504255236&s=170667a&w=0&h=-acuEoZoNx_eJLrtlw9i53YWG31NMKs3HInUQgH6rUk=");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-size: 100%;
+    padding: 5%;
+    background-attachment: fixed;
+
+}
+
+.form{
+    width: 60%;
+    margin-left: 20%;
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 8px #888888;
+}
+button{
+    padding-top: 2%;
+    margin-top: 4%;
+    width: 100%;
+    font-family: 'poppins';
+}
+label{
+    font-family: 'poppins';
+}
+input{
+    font-family: 'poppins';
+}
+h5{
+    font-family: 'poppins';
+}
+.info2{
+    margin-top: 10%;
+}

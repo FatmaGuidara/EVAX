@@ -1,0 +1,26 @@
+<div class="faq">
+    <app-navbar></app-navbar>
+    <div class="space"></div>
+    <div class="fac-list">
+        <p class="title">Frequently Asked Questions</p>
+    </div>
+    <table class="filter">
+        <td class="category-item"><button class="btn btn-secondary" (click)="getAllFaqs()">All</button></td>
+        <td class="category-item"><button class="btn btn-secondary" (click)="getFirstDose()">First Dose</button></td>
+        <td class="category-item"><button class="btn btn-secondary" (click)="getSecondDose()">Second Dose</button></td>
+        <td class="category-item"><button class="btn btn-secondary" (click)="getTravellers()">Passengers</button></td>
+    </table>
+    <!-- Gallery -->
+    <div class="row gallery">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" *ngFor="let faq of faqs">
+            <img
+            src="{{faq.imageLink}}"
+            class="image w-100 shadow-1-strong rounded mb-4"
+            alt="Q&A"
+        />    
+        </div>
+    </div>
+    <!-- Gallery -->
+ 
+
+</div>

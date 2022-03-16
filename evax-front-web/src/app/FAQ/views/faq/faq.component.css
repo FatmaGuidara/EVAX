@@ -1,0 +1,27 @@
+.faq {
+    background-image: url("https://media.istockphoto.com/photos/businessman-hold-virtual-medical-network-connection-icons-covid19-picture-id1312765142?b=1&k=20&m=1312765142&s=170667a&w=0&h=ma8qI_qiKbpNXLqKbQN1HKmSr1hfEn2dw6XyCB-nsSA=");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-size: 100%;
+}
+.space{
+    height: 460px;
+}
+.title{
+    font-weight: bold;
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0;
+    color: #2596be;
+}
+.filter{
+    width: 30%;
+    margin-left: 35%;
+}
+.category-item{
+    /* width: 1000px; */
+}
+.gallery{
+    margin: 100px;
+}

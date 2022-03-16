@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-lg sticky-top">
+    <img class="image" src="assets/drugstore.png" alt="" height="40">
+    <a class="navbar-brand" href="#">Drugstores Space</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="content">
+    <form class="form">
+        <h5>Drugstore Information</h5>
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="name" placeholder="Enter drugstore's name" name="drugstore-name" [(ngModel)]="drugstore.drugstoreName">
+            <label for="drugstore-name">Name</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <select id="inputState" class="form-control" [(ngModel)]="drugstore.state" name="state">
+                <option selected value="Sfax">Sfax</option>
+                <option value="Ariana">Ariana</option>
+                <option value="Beja">Béja</option>
+                <option value="BenArous">Ben Arous</option>
+                <option value="Bizerte">Bizerte</option>
+                <option value="Gabes">Gabès</option>
+                <option value="Gafsa">Gafsa</option>
+                <option value="Jendouba">Jendouba</option>
+                <option value="Kairouan">Kairouan</option>
+                <option value="Kasserine">Kasserine</option>
+                <option value="Kebili">Kebili</option>
+                <option value="Kef">Kef</option>
+                <option value="Mahdia">Mahdia</option>
+                <option value="Manouba">Manouba</option>
+                <option value="Medenine">Medenine</option>
+                <option value="Monastir">Monastir</option>
+                <option value="Nabeul">Nabeul</option>
+                <option value="SidiBouzid">Sidi Bouzid</option>
+                <option value="Siliana">Siliana</option>
+                <option value="Sousse">Sousse</option>
+                <option value="Tataouine">Tataouine</option>
+                <option value="Tozeur">Tozeur</option>
+                <option value="Tunis">Tunis</option>
+                <option value="Zaghouan">Zaghouan</option>            
+            </select>
+        </div>    
+        <div class="form-floating mt-3 mb-3">
+            <input type="number" class="form-control" id="phone-drugstore" placeholder="Enter phone" name="phone-drugstore" [(ngModel)]="drugstore.drugstorePhone">
+            <label for="phone-drugstore">Phone</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <select id="category" class="form-control" [(ngModel)]="drugstore.category" name="category">
+                <option selected value="day">Day</option>
+                <option value="night">Night</option>            
+            </select>
+        </div> 
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="address" placeholder="Enter drugstore's address" name="address" [(ngModel)]="drugstore.drugstoreAddress">
+            <label for="address">Address</label>
+        </div>
+        <h5 class="info2">Pharmacist's Information</h5>
+        <div class="form-floating mb-3 mt-3">
+            <input type="number" class="form-control" id="email" placeholder="Enter CIN" name="cin" [(ngModel)]="drugstore.cin">
+            <label for="cin">CIN</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <input type="date" class="form-control" id="dob" placeholder="Enter dob" name="dob">
+            <label for="dob">Date Of Birth</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="firstName" placeholder="Enter firstName" name="firstName" [(ngModel)]="drugstore.firstName">
+            <label for="firstName">Firstname</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="lastName" placeholder="Enter lastName" name="lastName" [(ngModel)]="drugstore.lastName">
+            <label for="lastName">Lastname</label>
+        </div>
+        <div class="form-floating mt-3 mb-3">
+            <input type="number" class="form-control" id="phone-pharacist" placeholder="Enter phone" name="phone-pharacist" [(ngModel)]="drugstore.pharmacistPhone">
+            <label for="phone-pharacist">Phone</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" [(ngModel)]="drugstore.email">
+            <label for="email">Email</label>
+        </div>
+        <div class="form-floating mt-3 mb-3">
+            <input type="number" class="form-control" id="fax" placeholder="Enter fax" name="fax" [(ngModel)]="drugstore.fax">
+            <label for="fax">Fax</label>
+        </div>
+        <button type="submit" class="btn btn-outline-danger btn-lg btn-block" (click)="addDrugstore()">Sign in</button>
+    </form>  
+</div>
+
+

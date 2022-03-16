@@ -1,0 +1,61 @@
+.navbar{
+    background-color: rgb(65, 65, 202);
+    border-radius: 0;
+    color: white;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    color: blanchedalmond;
+    font-family: 'poppins';
+}
+.nbr-list{
+    width: 30%;
+    padding: 2%;
+    /* background-color: yellowgreen; */
+    height: 100%;
+
+}
+.card{
+    padding: 5%;
+    width: 100%;
+    border-radius: 10px;
+    border: rgb(65, 65, 202) 1px solid;
+    margin-bottom: 10%;
+}
+.title{
+    color: rgb(46, 46, 138);
+    font-size: 20px;
+    font-family: 'poppins';
+    margin-bottom: 4%;
+}
+.description{
+    color: rgb(96, 96, 196);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+.map{
+    width: 20%;
+    /* background-color: tomato; */
+}
+.content{
+    margin-top: 0;
+    width: 100%;
+    background-image: url("https://st3.depositphotos.com/9303990/i/600/depositphotos_190308924-stock-photo-stethoscope-on-white-background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-size: 100%;
+}
+.table{
+    width: 96%;
+    margin: 2%;
+    /* background-color: thistle; */
+}
+.google-map{
+    margin: 5%;
+    width: 90%;
+}
+.image{
+    margin: 0 2%;
+}

@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg sticky-top">
+    <img class="image" src="assets/dashboard_logo.png" alt="" height="40">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<table class="content">
+    <tr>
+        <td class="nbr-list" valign="top">
+            <div class="card">
+                <div class="title">Number of registered citizens</div>
+                <div class="description">{{registeredCitizensNumber}}</div>
+            </div>
+            <div class="card">
+                <div class="title">Registrants not yet invited</div>
+                <div class="description">{{registeredNotInvitedCitizensNumber}}</div>
+            </div>
+            <div class="card">
+                <div class="title">Registered Citizens Today</div>
+                <div class="description">{{todayRegisteredCitizensNumber}}</div>
+            </div>
+        </td>
+        <td class="map" valign="top">
+            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6790067.597352476!2d5.066996011782728!3d33.800370834259134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisia!5e0!3m2!1sen!2stn!4v1647371746734!5m2!1sen!2stn" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </td>
+        <td class="table" valign="top">
+            <table class="table table-hover table-secondary">
+                <thead>
+                  <tr>
+                    <th scope="col">Governorate</th>
+                    <th scope="col">Registered</th>
+                    <th scope="col">Summoned</th>
+                    <th scope="col">Received at least one dose</th>
+                    <th class="col">Have completed vaccination</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let city of cities">
+                        <th scope="row">{{city.gouvernourat}}</th>
+                        <td>{{city.inscrits}}</td>
+                        <td>{{city.convoques}}</td>
+                        <td>{{city.uneDose}}</td>
+                        <td>{{city.completed}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
