@@ -1,5 +1,6 @@
 ## **Website Usecases**
 <!-- usecase picture -->
+![usecase](https://github.com/FatmaGuidara/EVAX/blob/master/UseCaseDiagram.png)
 ---
 ## **3 usecases are implemented**
 - The Q & A 
