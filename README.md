@@ -11,7 +11,8 @@
 - Drugstores' form
 <!-- drugstore video -->
 
-https://github.com/FatmaGuidara/EVAX/blob/master/DrugStore.mp4
+https://drive.google.com/file/d/1PN1wL2UzOp9Mwp9682egl-LzSa4OwWRO/view?usp=sharing
+
 
 
 ---
